@@ -1,0 +1,84 @@
+/*styling for contact page*/
+
+.header {
+  background-image: url("https://res.cloudinary.com/gray-malin/image/upload/c_scale,w_600,q_80/gray-malin/products/waikiki-beach.jpg?updated=");
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: Lato;
+}
+
+.myForm {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*styling for index page*/
+
+.hHeader {
+  background: linear-gradient(blue, white);
+  width: auto;
+  height: 300px;
+  color: white;
+  font-family: Lato;
+}
+
+.hText {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.hPar {
+  padding-top: 20px;
+}
+
+.myName {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.aboutSection {
+  padding-left: 20px;
+  color: black;
+  padding-top: 20px;
+  font-family: Lato;
+}
+
+.myLinks {
+  color: blue;
+  font-family: Lato;
+  font-size: 22px;
+  display: block;
+}
+
+h3 {
+  font-family: Lato font-size: 40px font-weight: lighter;
+}
+
+.linkSection {
+  align-content: center;
+}
+
+/*styling for portfolio page*/
+
+.pHeader {
+  background-image: url("https://res.cloudinary.com/gray-malin/image/upload/c_scale,w_600,q_80/gray-malin/products/waikiki-beach.jpg?updated=");
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: Lato;
+}
+
+.cardSection {
+  padding-top: 30px;
+}
+
+.cardImage {
+  width: 100px;
+  height: 100px;
+}
