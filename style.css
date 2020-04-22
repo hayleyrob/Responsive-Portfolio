@@ -62,6 +62,16 @@ h3 {
   align-content: center;
 }
 
+.myFooter {
+  font-family: Lato;
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(blue, rgb(85, 171, 192));
+  width: auto;
+  height: 50px;
+  font-weight: lighter;
+}
+
 /*styling for portfolio page*/
 
 .pHeader {
