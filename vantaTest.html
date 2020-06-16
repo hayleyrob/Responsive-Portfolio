@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .vantaDiv {
+  width: 100%; height: 500px; margin-bottom: 10px;
+}
+  #vantaDiv {
+  width: 100%; height: 500px; margin-bottom: 10px;
+}
+  .h1Class {
+    color: white;
+    font-family: Lato;
+    
+  }
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="vantaDiv" id="vantaDiv">
+    <h1 class="h1Class">Welcome</h1>
+  </div>
+
+  <script src="Vanta/three.r95.min.js"></script>
+  <script src="Vanta/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "#vantaDiv",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x3ff3ff,
+      backgroundColor: 0x14072a
+    })
+  </script>
+</body>
+</html>
